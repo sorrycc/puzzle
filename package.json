@@ -1,23 +1,24 @@
 {
-    "name": "puzzle",
-    "version": "1.0.0",
-    "family": "popomore",
-    "description": "a puzzle game",
-    "homepage": "https://github.com/popomore/puzzle",
-    "author": "",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/popomore/puzzle"
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "a puzzle game",
+  "homepage": "https://github.com/sorrycc/puzzle",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorrycc/puzzle"
+  },
+  "bugs": {
+    "url": "https://github.com/sorrycc/puzzle/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "dependencies": {
+      "jquery": "1.7.2",
+      "arale-popup": "1.2.0"
     },
-    "bugs": {
-        "url": "https://github.com/popomore/puzzle/issues"
-    },
-    "license": "MIT",
-    "spm": {
-        "alias": {
-          "$": "$",
-          "popup": "arale/popup/1.0.2/popup"
-        },
-        "output": ["puzzle.js"]
+    "devDependencies": {
+      "expect.js": "0.3.1"
     }
+  }
 }

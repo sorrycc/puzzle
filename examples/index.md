@@ -16,7 +16,7 @@
 
 
 ````javascript
-seajs.use(['$', 'popup', 'puzzle'], function($, Popup, puzzle) {
+seajs.use(['jquery', 'arale-popup', '../index'], function($, Popup, puzzle) {
   puzzle.init($('#container li'));
 
   $(document).keyup(function(e) {
